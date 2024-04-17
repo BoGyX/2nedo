@@ -1,0 +1,19 @@
+﻿<Page x:Class="_3prak.Waither"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_3prak"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Waither">
+
+    <Grid>
+
+        <DataGrid x:Name="WaitherDataGrid" Margin="10,10,299,255"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="34,215,0,0" VerticalAlignment="Top" Height="68" Width="130" Click="Insert_Click"/>
+        <TextBox x:Name="surname"  Margin="280,239,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="135" Height="30"/>
+        <TextBox x:Name="name" Margin="280,294,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="135" Height="30"/>
+        <TextBox x:Name="middlename"  Margin="280,348,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="135" Height="30"/>
+    </Grid>
+</Page>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="_3prak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3prak"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="MenuDataGrid"/>
+        <Button Content="Официаниы" HorizontalAlignment="Left" Margin="589,100,0,0" VerticalAlignment="Top" Height="72" Width="133" Click="Button_Click_2"/>
+        <Button Content="Итальянское меню" HorizontalAlignment="Left" Margin="68,100,0,0" VerticalAlignment="Top" Height="72" Width="133" Click="Button_Click"/>
+        <Button Content="Клиенты" HorizontalAlignment="Left" Margin="309,100,0,0" VerticalAlignment="Top" Height="72" Width="133" Click="Button_Click_1"/>
+        <Button Content="ИТОГ" HorizontalAlignment="Left" Margin="286,290,0,0" VerticalAlignment="Top" Height="72" Width="180" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>
